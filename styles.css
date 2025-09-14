@@ -198,7 +198,7 @@ main {
 /* ===== GALERÍA DE IMÁGENES ===== */
 .gallery {
     display: flex;
-    gap: 100px;
+    gap: 15px; /* ===== PARA MODIFICAR LAS SEPARACION DE LAS IMAGENES ===== */
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -374,3 +374,4 @@ footer {
     .tablet { display: none; }
     .movil { display: none; }
 }
+
